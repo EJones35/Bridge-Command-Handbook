@@ -5,8 +5,7 @@
 	--link: deepskyblue;
 	--link-hover: cyan;
 	--card: darkslateblue;
-	--nav-general: pink;
-	--nav-roles: salmon;
+	--nav: cornflowerblue;
 
 	--command: gray;
 	--operations: red;
@@ -50,6 +49,10 @@ a:focus-visible {
 	outline-offset: 4px;
 }
 
+.nav {
+	border: 5px solid var(--nav);
+}
+
 nav {
 	display: grid;
 	gap: 10px;
@@ -60,7 +63,6 @@ nav {
 
 nav.roles {
 	grid-template-columns: repeat(7, minmax(100px, 1fr));
-	border: 5px solid var(--nav-roles);
 }
 
 nav.general {
@@ -68,7 +70,6 @@ nav.general {
 	justify-content: center;
 	gap: 20px;
 	padding: 20px;
-	border: 5px solid var(--nav-general);
 }
 
 @media (max-width: 900px) {
