@@ -61,37 +61,27 @@ nav {
 	background-color: var(--card);
 }
 
-nav.roles {
-	grid-template-columns: repeat(7, minmax(100px, 1fr));
-}
-
 nav.general {
-	grid-template-columns: repeat(2, auto);
+	grid-template-columns: repeat(3, auto);
 	justify-content: center;
 	gap: 20px;
 	padding: 20px;
 }
 
 @media (max-width: 900px) {
-	nav.roles {
-		grid-template-columns: repeat(5, 1fr);
-	}
 	nav.general {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media (max-width: 500px) {
-	nav.roles {
-		grid-template-columns: repeat(3, 1fr);
-	}
 	nav.general {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 .home-button {
-	font-size: 0.75em;
+	font-size: 1.25em;
 }
 
 img.role-icon {
@@ -130,4 +120,9 @@ section {
 	padding: 25px;
 	margin: 30px 0;
 	border-radius: 10px;
+}
+
+.role-dropdown {
+	background-color: var(--card);
+	color: var(--link);
 }
