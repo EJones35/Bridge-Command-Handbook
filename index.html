@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap">
@@ -16,28 +17,29 @@
 	<div class="nav">
 		<nav class="general">
 			<a href="#home">Home</a>
+			<select class="role-dropdown">
+					<option value="#captain">Captain</option>
+					<option value="#firstofficer">First Officer</option>
+					<option value="#helm">Helm</option>
+					<option value="#navigation">Navigation</option>
+					<option value="#comms">Comms</option>
+					<option value="#chiefengineer">Chief Engineer</option>
+					<option value="#manualengineer">Manual Engineer</option>
+					<option value="#shuttleengineer">Shuttle Engineer</option>
+					<option value="#shuttlehelm">Shuttle Helm</option>
+					<option value="#shuttlegeneralist">Shuttle Generalist</option>
+					<option value="#dd">Dock & Drone</option>
+					<option value="#radar">Radar</option>
+					<option value="#beams">Weapons (Beams)</option>
+					<option value="#missiles">Weapons (Missiles)</option>
+			</select>
 			<a href="#about">About</a>
-		</nav>
-		<nav class="roles">
-			<a href="#captain">Captain</a>
-			<a href="#firstofficer">First Officer</a>
-			<a href="#helm">Helm</a>
-			<a href="#navigation">Navigation</a>
-			<a href="#comms">Comms</a>
-			<a href="#chiefengineer">Chief Engineer</a>
-			<a href="#manualengineer">Manual Engineer</a>
-			<a href="#shuttleengineer">Shuttle Engineer</a>
-			<a href="#shuttlehelm">Shuttle Helm</a>
-			<a href="#shuttlegeneralist">Shuttle Generalist</a>
-			<a href="#dock&drones">Dock & Drone</a>
-			<a href="#radar">Radar</a>
-			<a href="#beams">Weapons (Beams)</a>
-			<a href="#missiles">Weapons (Missiles)</a>
 		</nav>
 	</div>
 
 	<section id="captain" class="command">
-		<h2>Captain <img src="images/captain.png" class="role-icon"> <a href="#home" class="home-button">Home</a></h2>
+		<h2>Captain <img src="images/captain.png" class="role-icon"></h2>
+		<a href="#home" class="home-button">Home</a>
 		<h3>Main Role</h3>
 		<p>The captain is the role with the highest say on the ship. However, this does not mean they have absolute power - that is what the detention bay is for. The captain should:</p>
 		<ol>
@@ -121,7 +123,8 @@
 	</section>
 
 	<section id="firstofficer" class="command">
-		<h2>First Officer (XO) <img src="images/first-officer.png" class="role-icon"> <a href="#home" class="home-button">Home</a></h2>
+		<h2>First Officer (XO) <img src="images/first-officer.png" class="role-icon"></h2>
+		<a href="#home" class="home-button">Home</a>
 		<h3>Main Role</h3>
 		<p>The first officer is the role with the second highest say on the ship. The first officer should:</p>
 		<ol>
@@ -176,9 +179,9 @@
 		<h3>Station</h3>
 		<p>As the fist officer, you do not have a designated station. However, on the shuttle, you may be in charge of shuttle comms to the main ship and flight controller.</p>
 	</section>
-
 	<section id="helm" class="operations">
-		<h2>Helm <img src="images/helm.png" class="role-icon"> <a href="#home" class="home-button">Home</a></h2>
+		<h2>Helm <img src="images/helm.png" class="role-icon"></h2>
+		<a href="#home" class="home-button">Home</a>
 		<h3>Main Role</h3>
 		<p>The helm officer is the person driving the ship. The helm officer should:</p>
 		<ol>
@@ -244,9 +247,9 @@
 			<li>Communicate clearly</li>
 		</ul>
 	</section>
-
 	<section id="about" class="about">
-		<h2>About <a href="#home" class="home-button">Home</a></h2>
+		<h2>About</h2>
+		<a href="#home" class="home-button">Home</a>
 		<p>This is a fan-made handbook for the roles at Bridge Command. Nothing should be taken as reality. If you don't want to play the way this handbook shows, then don't so long as it doesn't go against basic human respect. Things you may get kicked out for:</p>
 		<ul>
 			<li>Disrespecting someone</li>
