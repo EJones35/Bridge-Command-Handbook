@@ -10,7 +10,7 @@ body {
 	background-color: var(--background);
 	color: var(--text);
 	font-family: "Exo 2", sans-serif;
-	margin: 10px;
+	margin: 50px;
 }
 
 main {
@@ -61,4 +61,10 @@ nav {
 
 .home-button {
 	font-size: 0.75em;
+}
+
+img.role-icon {
+	height: 1.2em;
+	width: auto;
+	vertical-align: middle;
 }
