@@ -58,3 +58,7 @@ nav {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+.home-button {
+	transform: scale(0.9);
+}
