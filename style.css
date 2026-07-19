@@ -182,33 +182,3 @@ summary:focus-visible {
 	outline: 2px solid var(--link);
 	outline-offset: 4px;
 }
-
-.command-dropdown-menu {
-	z-index: 10;
-	width: 200px;
-	border: 5px solid var(--command);
-}
-
-.operations-dropdown-menu {
-	z-index: 10;
-	width: 200px;
-	border: 5px solid var(--operations);
-}
-
-.science-dropdown-menu {
-	z-index: 10;
-	width: 200px;
-	border: 5px solid var(--science);
-}
-
-.engineering-dropdown-menu {
-	z-index: 10;
-	width: 200px;
-	border: 5px solid var(--engineering);
-}
-
-.shuttle-dropdown-menu {
-	z-index: 10;
-	width: 200px;
-	border: 5px solid var(--shuttle);
-}
