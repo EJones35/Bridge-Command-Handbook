@@ -11,6 +11,7 @@
 </head>
 
 <body>
+	<a href="#main-content" class="skip-link">Skip to main content</a>
 	<header id="home">
 		<h1>Role Handbook</h1>
 	</header>
@@ -19,330 +20,511 @@
 		<nav class="general">
 			<a href="#home">Home</a>
 		<details id="role-dropdown" class="role-dropdown">
-			<summary>Roles</summary>
+			<summary>Roles ↓</summary>
 			<div class="dropdown-menu">
-				<a href="#captain">Captain</a>
-				<a href="#firstofficer">First Officer</a>
-				<a href="#helm">Helm</a>
-				<a href="#navigation">Navigation</a>
-				<a href="#comms">Comms</a>
-				<a href="#chiefengineer">Chief Engineer</a>
-				<a href="#manualengineer">Manual Engineer</a>
-				<a href="#shuttleengineer">Shuttle Engineer</a>
-				<a href="#shuttlehelm">Shuttle Helm</a>
-				<a href="#shuttlegeneralist">Shuttle Generalist</a>
-				<a href="#dd">Dock & Drone</a>
-				<a href="#radar">Radar</a>
-				<a href="#beams">Weapons (Beams)</a>
-				<a href="#missiles">Weapons (Missiles)</a>
+				<details id="command-dropdown" class="command-dropdown">
+					<summary>Command ↓</summary>
+						<div class="command-dropdown-menu">
+							<a href="#captain">Captain</a>
+							<a href="#firstofficer">First Officer</a>
+						</div>
+				</details>
+				<details id="operations-dropdown" class="operations-dropdown">
+					<summary>Operations ↓</summary>
+						<div class="operations-dropdown-menu">
+							<a href="#helm">Helm</a>
+							<a href="#beams">Weapons (Beams)</a>
+							<a href="#missiles">Weapons (Missiles)</a>
+						</div>
+				</details>
+				<details id="science-dropdown" class="science-dropdown">
+					<summary>Science ↓</summary>
+						<div class="science-dropdown-menu">
+							<a href="#navigation">Navigation</a>
+							<a href="#comms">Comms</a>
+							<a href="#radar">Radar</a>
+						</div>
+				</details>
+				<details id="engineering-dropdown" class="engineering-dropdown">
+					<summary>Engineering ↓</summary>
+						<div class="engineering-dropdown-menu">
+							<a href="#chiefengineer">Chief Engineer</a>
+							<a href="#manualengineer">Manual Engineer</a>
+							<a href="#dd">Dock & Drone</a>
+						</div>
+				</details>
+				<details id="shuttle-dropdown" class="shuttle-dropdown">
+					<summary>Shuttle ↓</summary>
+						<div class="shuttle-dropdown-menu">
+							<a href="#shuttleengineer">Shuttle Engineer</a>
+							<a href="#shuttlehelm">Shuttle Helm</a>
+							<a href="#shuttlegeneralist">Shuttle Generalist</a>
+						</div>
+				</details>
 			</div>
 		</details>
 			<a href="#about">About</a>
 		</nav>
 	</div>
+	<main id="main-content">
+		<section id="captain" class="command">
+			<h2>Captain <img src="images/captain.png" class="role-icon" alt="Captain icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The captain is the role with the highest say on the ship. However, this does not mean they have absolute power - that is what the detention bay is for. The captain should:</p>
+			<ol>
+				<li>Listen to the crew</li>
+				<li>Delegate tasks</li>
+				<li>Remember key information</li>
+				<li>Coordinate crew actions</li>
+				<li>Make final decisions</li>
+				<li>Communicate mission priorities</li>
+				<li>Maintain crew morale</li>
+				<li>Give everyone a chance</li>
+				<li>Encourage new players</li>
+			</ol>
+			<p>The captain should <strong>not</strong>:</p>
+			<ol>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The captain is part of the <strong>command</strong> subteam.</p>
+			<p>The command subteam ensures that every station is working toward the same objective, even when conditions are chaotic and information is incomplete.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the captain sits in the centre of the bridge, semi-surrounded by railings. The helm officer is in front of them.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the captain sits in the centre of the bridge, with no railings. The helm and navigation officers are in front of them.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Leadership</li>
+				<li>Communication</li>
+				<li>Decision making</li>
+				<li>Remaining calm under pressure</li>
+				<li>Understanding other stations</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Someone fix engineering!"</p>
+			<p><strong>Right: </strong>"Engineering, reactor temperature is increasing. Please investigate and report."</p>
+			<p><strong>Wrong: </strong>"Helm, turn to 83°, no, too far and put impulse on 100%..."</p>
+			<p><strong>Right: </strong>"Helm, take us to that station."</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Trying to control every station</li>
+				<li>Giving unclear orders</li>
+				<li>Forgetting to listen to specialists</li>
+				<li>Making decisions without enough information</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Trust your officers</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+				<li>Let specialists do their jobs</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the captain, you can't change anything on your station, but you do have:</p>
+			<ul>
+				<li>Ship Log</li>
+				<li>Database</li>
+				<li>Alert Level Control</li>
+				<li>Tactical Radar</li>
+				<li>Long Range Radar</li>
+			</ul>
+			<h4>Ship Log</h4>
+			<p>The ship log is a log of most things that happens on the ship, for example, communications.</p>
+			<h4>Database</h4>
+			<p>The database contains information about the world you're in. In some missions, data may be added that you need to look though.</p>
+			<h4>Alert Level Controls</h4>
+			<p>The alert level controller is used to control the alert level on the ship. This is shown by the light colours.</p>
+			<h4>Tactical Radar</h4>
+			<p>The tactical radar has the same range of sight as helm and weapons (5 units).</p>
+			<h4>Long Range Radar</h4>
+			<p>The long range radar has the same range of sight as science (30 units).</p>
+			<h3>Emergency Procedures</h3>
+			<ul>
+				<li>Assess the situation</li>
+				<li>Assign priorities</li>
+				<li>Coordinate stations</li>
+				<li>Communicate clearly</li>
+			</ul>
+		</section>
 
-	<section id="captain" class="command">
-		<h2>Captain <img src="images/captain.png" class="role-icon"></h2>
-		<a href="#home" class="home-button">Home</a>
-		<h3>Main Role</h3>
-		<p>The captain is the role with the highest say on the ship. However, this does not mean they have absolute power - that is what the detention bay is for. The captain should:</p>
-		<ol>
-			<li>Listen to the crew</li>
-			<li>Delegate tasks</li>
-			<li>Remember key information</li>
-			<li>Coordinate crew actions</li>
-			<li>Make final decisions</li>
-			<li>Communicate mission priorities</li>
-			<li>Maintain crew morale</li>
-			<li>Give everyone a chance</li>
-			<li>Encourage new players</li>
-		</ol>
-		<p>The captain should <strong>not</strong>:</p>
-		<ol>
-			<li>Take over a station without permission</li>
-			<li>Ruin someone else's time - they paid the same money you did for the experience</li>
-			<li>Dominate every conversation</li>
-		</ol>
-		<h3>Crew Subteam</h3>
-		<p>The captain is part of the <strong>command</strong> subteam.</p>
-		<p>The command subteam ensures that every station is working toward the same objective, even when conditions are chaotic and information is incomplete.</p>
-		<h3>Location</h3>
-		<h4>Havock</h4>
-		<p>On the Havock, the captain sits in the centre of the bridge, semi-surrounded by railings. The helm officer is in front of them.</p>
-		<h4>Takanami</h4>
-		<p>On the Takanami, the captain sits in the centre of the bridge, with no railings. The helm and navigation officers are in front of them.</p>
-		<h3>Skills Required</h3>
-		<ul>
-			<li>Leadership</li>
-			<li>Communication</li>
-			<li>Decision making</li>
-			<li>Remaining calm under pressure</li>
-			<li>Understanding other stations</li>
-		</ul>
-		<h3>Callouts</h3>
-		<p><strong>Wrong: </strong>"Someone fix engineering!"</p>
-		<p><strong>Right: </strong>"Engineering, reactor temperature is increasing. Please investigate and report."</p>
-		<p><strong>Wrong: </strong>"Helm, turn to 83°, no, too far and put impulse on 100%..."</p>
-		<p><strong>Right: </strong>"Helm, take us to that station."</p>
-		<h3>Common Mistakes</h3>
-		<ul>
-			<li>Trying to control every station</li>
-			<li>Giving unclear orders</li>
-			<li>Forgetting to listen to specialists</li>
-			<li>Making decisions without enough information</li>
-		</ul>
-		<h3>Advanced Tips</h3>
-		<ul>
-			<li>Trust your officers</li>
-			<li>Keep communication concise</li>
-			<li>Think several steps ahead</li>
-			<li>Let specialists do their jobs</li>
-		</ul>
-		<h3>Station</h3>
-		<p>As the captain, you can't change anything on your station, but you do have:</p>
-		<ul>
-			<li>Ship Log</li>
-			<li>Database</li>
-			<li>Alert Level Control</li>
-			<li>Tactical Radar</li>
-			<li>Long Range Radar</li>
-		</ul>
-		<h4>Ship Log</h4>
-		<p>The ship log is a log of most things that happens on the ship, for example, communications.</p>
-		<h4>Database</h4>
-		<p>The database contains information about the world you're in. In some missions, data may be added that you need to look though.</p>
-		<h4>Alert Level Controls</h4>
-		<p>The alert level controller is used to control the alert level on the ship. This is shown by the light colours.</p>
-		<h4>Tactical Radar</h4>
-		<p>The tactical radar has the same range of sight as helm and weapons (5 units).</p>
-		<h4>Long Range Radar</h4>
-		<p>The long range radar has the same range of sight as science (30 units).</p>
-		<h3>Emergency Procedures</h3>
-		<ul>
-			<li>Assess the situation</li>
-			<li>Assign priorities</li>
-			<li>Coordinate stations</li>
-			<li>Communicate clearly</li>
-		</ul>
-	</section>
+		<section id="firstofficer" class="command">
+			<h2>First Officer (XO) <img src="images/first-officer.png" class="role-icon" alt="First Officer icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The first officer is the role with the second highest say on the ship. The first officer should:</p>
+			<ol>
+				<li>Listen to the captain</li>
+				<li>Make sure the crew knows their jobs</li>
+				<li>Inform the captain</li>
+				<li>Captain the shuttle</li>
+				<li>Understand what needs to happen</li>
+			</ol>
+			<p>The first officer should <strong>not</strong>:</p>
+			<ol>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+				<li>Go against the captain except in <strong>extreme</strong> circumstances.</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The first officer is part of the <strong>command</strong> subteam.</p>
+			<p>The command subteam ensures that every station is working toward the same objective, even when conditions are chaotic and information is incomplete.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the first officer does not have a space for a station. This may be replaced by standing next to the captain's station. On the Havock shuttle, the first officer would normally sit at the front.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the first officer does not have a space for a station. This may be replaced by standing next to the captain's station. On the Takanami shuttle, the first officer would normally sit at the front.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Leadership</li>
+				<li>Communication</li>
+				<li>Decision making</li>
+				<li>Remaining calm under pressure</li>
+				<li>Understanding other stations</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Captain, you're wrong."</p>
+			<p><strong>Right: </strong>"Captain, you can't fire a nuke at them, they're our ally."</p>
+			<p><strong>Wrong: </strong>"Captain, I'm taking the shuttle."</p>
+			<p><strong>Right: </strong>"Captain, permission to deploy the shuttle? Ok shuttle crew, let's move."</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Trying to control every station</li>
+				<li>Giving unclear orders</li>
+				<li>Going against the captain</li>
+				<li>Forgetting to listen to specialists</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Trust your captain</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+				<li>Let specialists do their jobs</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the fist officer, you do not have a designated station. However, on the shuttle, you may be in charge of shuttle comms to the main ship and flight controller.</p>
+		</section>
 
-	<section id="firstofficer" class="command">
-		<h2>First Officer (XO) <img src="images/first-officer.png" class="role-icon"></h2>
-		<a href="#home" class="home-button">Home</a>
-		<h3>Main Role</h3>
-		<p>The first officer is the role with the second highest say on the ship. The first officer should:</p>
-		<ol>
-			<li>Listen to the captain</li>
-			<li>Make sure the crew knows their jobs</li>
-			<li>Inform the captain</li>
-			<li>Captain the shuttle</li>
-			<li>Understand what needs to happen</li>
-		</ol>
-		<p>The first officer should <strong>not</strong>:</p>
-		<ol>
-			<li>Take over a station without permission</li>
-			<li>Ruin someone else's time - they paid the same money you did for the experience</li>
-			<li>Dominate every conversation</li>
-			<li>Go against the captain except in <strong>extreme</strong> circumstances.</li>
-		</ol>
-		<h3>Crew Subteam</h3>
-		<p>The first officer is part of the <strong>command</strong> subteam.</p>
-		<p>The command subteam ensures that every station is working toward the same objective, even when conditions are chaotic and information is incomplete.</p>
-		<h3>Location</h3>
-		<h4>Havock</h4>
-		<p>On the Havock, the first officer does not have a space for a station. This may be replaced by standing next to the captain's station. On the Havock shuttle, the first officer would normally sit at the front.</p>
-		<h4>Takanami</h4>
-		<p>On the Takanami, the first officer does not have a space for a station. This may be replaced by standing next to the captain's station. On the Takanami shuttle, the first officer would normally sit at the front.</p>
-		<h3>Skills Required</h3>
-		<ul>
-			<li>Leadership</li>
-			<li>Communication</li>
-			<li>Decision making</li>
-			<li>Remaining calm under pressure</li>
-			<li>Understanding other stations</li>
-		</ul>
-		<h3>Callouts</h3>
-		<p><strong>Wrong: </strong>"Captain, you're wrong."</p>
-		<p><strong>Right: </strong>"Captain, you can't fire a nuke at them, they're our ally."</p>
-		<p><strong>Wrong: </strong>"Captain, I'm taking the shuttle."</p>
-		<p><strong>Right: </strong>"Captain, permission to deploy the shuttle? Ok shuttle crew, let's move."</p>
-		<h3>Common Mistakes</h3>
-		<ul>
-			<li>Trying to control every station</li>
-			<li>Giving unclear orders</li>
-			<li>Going against the captain</li>
-			<li>Forgetting to listen to specialists</li>
-		</ul>
-		<h3>Advanced Tips</h3>
-		<ul>
-			<li>Trust your captain</li>
-			<li>Keep communication concise</li>
-			<li>Think several steps ahead</li>
-			<li>Let specialists do their jobs</li>
-		</ul>
-		<h3>Station</h3>
-		<p>As the fist officer, you do not have a designated station. However, on the shuttle, you may be in charge of shuttle comms to the main ship and flight controller.</p>
-	</section>
+		<section id="helm" class="operations">
+			<h2>Helm <img src="images/helm.png" class="role-icon" alt="Helm icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The helm officer is the person driving the ship. The helm officer should:</p>
+			<ol>
+				<li>Listen to the captain</li>
+				<li>Listen to the engineers</li>
+				<li>Understand target priority</li>
+				<li>Follow waypoints</li>
+				<li>Avoid crashing</li>
+			</ol>
+			<p>The helm officer should <strong>not</strong>:</p>
+			<ol>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The helm officer is part of the <strong>operations</strong> subteam.</p>
+			<p>It is here that intent becomes action. The ship closes distance, avoids danger, brings weapons to bear, shields itself from harm, and applies force where it will matter most.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the helm officer sits at the front of the bridge. The captain is behind them, the main screen in front.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the helm officer sits at the front of the bridge next to the navigation officer (right). The captain is behind them, the main screen in front.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Quick reaction</li>
+				<li>Communication</li>
+				<li>Remaining calm under pressure</li>
+				<li>Understanding other stations</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Place a waypoint."</p>
+			<p><strong>Right: </strong>"Navigation, can I have a waypoint for the station?"</p>
+			<p><strong>Wrong: </strong>"Warping."</p>
+			<p><strong>Right: </strong>"Engineering, can we go at warp?"</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Giving unclear requests</li>
+				<li>Going against command because "you know better".</li>
+				<li>Making important decisions without command permission</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Let the navigation officer map a route if needed e.g. through an astroid belt</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the helm officer, you have access to:</p>
+			<ul>
+				<li>Impulse Control</li>
+				<li>Warp Control</li>
+				<li>Tactical Radar</li>
+			</ul>
+			<h4>Impulse Control</h4>
+			<p>The impulse control is a slider that goes from -100% to 100%. 100% is full speed ahead, -100% is full speed reverse.</p>
+			<h4>Tactical Radar</h4>
+			<p>The tactical radar has a 5U range of sight.</p>
+			<h3>Emergency Procedures</h3>
+			<ul>
+				<li>Assess the situation</li>
+				<li>Assign target priorities</li>
+				<li>Communicate clearly</li>
+			</ul>
+		</section>
 
-	<section id="helm" class="operations">
-		<h2>Helm <img src="images/helm.png" class="role-icon"></h2>
-		<a href="#home" class="home-button">Home</a>
-		<h3>Main Role</h3>
-		<p>The helm officer is the person driving the ship. The helm officer should:</p>
-		<ol>
-			<li>Listen to the captain</li>
-			<li>Listen to the engineers</li>
-			<li>Understand target priority</li>
-			<li>Follow waypoints</li>
-			<li>Avoid crashing</li>
-		</ol>
-		<p>The helm officer should <strong>not</strong>:</p>
-		<ol>
-			<li>Take over a station without permission</li>
-			<li>Ruin someone else's time - they paid the same money you did for the experience</li>
-			<li>Dominate every conversation</li>
-		</ol>
-		<h3>Crew Subteam</h3>
-		<p>The helm officer is part of the <strong>operations</strong> subteam.</p>
-		<p>It is here that intent becomes action. The ship closes distance, avoids danger, brings weapons to bear, shields itself from harm, and applies force where it will matter most.</p>
-		<h3>Location</h3>
-		<h4>Havock</h4>
-		<p>On the Havock, the helm officer sits at the front of the bridge. The captain is behind them, the main screen in front.</p>
-		<h4>Takanami</h4>
-		<p>On the Takanami, the helm officer sits at the front of the bridge. The captain is behind them, the main screen in front.</p>
-		<h3>Skills Required</h3>
-		<ul>
-			<li>Quick reaction</li>
-			<li>Communication</li>
-			<li>Remaining calm under pressure</li>
-			<li>Understanding other stations</li>
-		</ul>
-		<h3>Callouts</h3>
-		<p><strong>Wrong: </strong>"Place a waypoint."</p>
-		<p><strong>Right: </strong>"Navigation, can I have a waypoint for the station?"</p>
-		<p><strong>Wrong: </strong>"Warping."</p>
-		<p><strong>Right: </strong>"Engineering, can we go at warp?"</p>
-		<h3>Common Mistakes</h3>
-		<ul>
-			<li>Giving unclear requests</li>
-			<li>Going against command because "you know better".</li>
-			<li>Making important decisions without command permission</li>
-		</ul>
-		<h3>Advanced Tips</h3>
-		<ul>
-			<li>Let the navigation officer map a route if needed e.g. through an astroid belt</li>
-			<li>Keep communication concise</li>
-			<li>Think several steps ahead</li>
-		</ul>
-		<h3>Station</h3>
-		<p>As the helm officer, you have access to:</p>
-		<ul>
-			<li>Impulse Control</li>
-			<li>Warp Control</li>
-			<li>Tactical Radar</li>
-		</ul>
-		<h4>Impulse Control</h4>
-		<p>The impulse control is a slider that goes from -100% to 100%. 100% is full speed ahead, -100% is full speed reverse.</p>
-		<h4>Tactical Radar</h4>
-		<p>The tactical radar has a 5U range of sight.</p>
-		<h3>Emergency Procedures</h3>
-		<ul>
-			<li>Assess the situation</li>
-			<li>Assign target priorities</li>
-			<li>Communicate clearly</li>
-		</ul>
-	</section>
+		<section id="navigation" class="science">
+			<h2>Navigation <img src="images/navigation.png" class="role-icon" alt="Navigation icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The navigation officer manages routes between 2 destinations. The navigation officer should:</p>
+			<ol>
+				<li>Listen to the captain</li>
+				<li>Listen to the helm officer</li>
+				<li>Understand the ship</li>
+				<li>Set waypoints</li>
+			</ol>
+			<p>The navigation officer should <strong>not</strong>:</p>
+			<ol>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The navigation officer is part of the <strong>science</strong> subteam.</p>
+			<p>Science provides the ship’s understanding of the battlespace. It gathers, interprets, and distributes information, ensuring that decisions are made with awareness rather than assumption.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the navigation officer stands at the back left of the bridge. The radar is in front of them, the captain to their left.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the navigation officer sits at the front of the bridge, next to the helm officer (left). The captain is behind them, the main screen in front.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Undersanding of the ship</li>
+				<li>Communication</li>
+				<li>Remaining calm under pressure</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Follow the waypoint"</p>
+			<p><strong>Right: </strong>"Helm, get to that waypoint"</p>
+			<p><strong>Wrong: </strong>"NO! GO THAT WAY!"</p>
+			<p><strong>Right: </strong>"Helm, I've set you a clear path."</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Giving unclear requests</li>
+				<li>Going against command because "you know better".</li>
+				<li>Trying to force helm to follow a path</li>
+				<li>Making important decisions without command permission</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Let the helm officer get to the waypoints as they wish, unless there is danger in their path</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the navigation officer, you have access to:</p>
+			<ul>
+				<li>Waypoints</li>
+				<li>Hacking</li>
+				<li>Probes</li>
+			</ul>
+			<h4>Waypoints</h4>
+				<p>You have access to 8 colours of 10 numbered waypoints. Use these to map routes or points of interest for helm.</p>
+			<h4>Hacking</h4>
+				<p>You have access to hack other ships through a game of minesweeper. After a 100% hack, 75% of power supplied to a system is reduced.</p>
+			<h4>Probes</h4>
+				<p>You have access to 10 probes which have a 5 minute lifespan. Probes can be used to see more than just the ship. They can be linked to science to start scanning ships in an unknown area e.g. a nebula.</p>
+			<h3>Emergency Procedures</h3>
+			<ul>
+				<li>Assess the situation</li>
+				<li>Assign target priorities</li>
+				<li>Communicate clearly</li>
+			</ul>
+		</section>
 
-	<section id="navigation" class="science">
-		<h2>Navigation <img src="images/navigation.png" class="role-icon"></h2>
-		<a href="#home" class="home-button">Home</a>
-		<h3>Main Role</h3>
-		<p>The navigation officer manages routes between 2 destinations. The navigation officer should:</p>
-		<ol>
-			<li>Listen to the captain</li>
-			<li>Listen to the helm officer</li>
-			<li>Understand the ship</li>
-			<li>Set waypoints</li>
-		</ol>
-		<p>The navigation officer should <strong>not</strong>:</p>
-		<ol>
-			<li>Take over a station without permission</li>
-			<li>Ruin someone else's time - they paid the same money you did for the experience</li>
-			<li>Dominate every conversation</li>
-		</ol>
-		<h3>Crew Subteam</h3>
-		<p>The navigation officer is part of the <strong>science</strong> subteam.</p>
-		<p>Science provides the ship’s understanding of the battlespace. It gathers, interprets, and distributes information, ensuring that decisions are made with awareness rather than assumption.</p>
-		<h3>Location</h3>
-		<h4>Havock</h4>
-		<p>On the Havock, the navigation officer stands at the back left of the bridge. The radar is in front of them, the captain to their left.</p>
-		<h4>Takanami</h4>
-		<p>On the Takanami, the navigation officer sits at the front of the bridge, next to the helm officer. The captain is behind them, the main screen in front.</p>
-		<h3>Skills Required</h3>
-		<ul>
-			<li>Undersanding of the ship</li>
-			<li>Communication</li>
-			<li>Remaining calm under pressure</li>
-		</ul>
-		<h3>Callouts</h3>
-		<p><strong>Wrong: </strong>"Follow the waypoint"</p>
-		<p><strong>Right: </strong>"Helm, get to that waypoint"</p>
-		<p><strong>Wrong: </strong>"NO! GO THAT WAY!"</p>
-		<p><strong>Right: </strong>"Helm, I've set you a clear path."</p>
-		<h3>Common Mistakes</h3>
-		<ul>
-			<li>Giving unclear requests</li>
-			<li>Going against command because "you know better".</li>
-			<li>Trying to force helm to follow a path</li>
-			<li>Making important decisions without command permission</li>
-		</ul>
-		<h3>Advanced Tips</h3>
-		<ul>
-			<li>Let the helm officer get to the waypoints as they wish, unless there is danger in their path</li>
-			<li>Keep communication concise</li>
-			<li>Think several steps ahead</li>
-		</ul>
-		<h3>Station</h3>
-		<p>As the navigation officer, you have access to:</p>
-		<ul>
-			<li>Waypoints</li>
-		</ul>
-		<h4>Waypoints</h4>
-		<p>You have access to 8 colours of 10 waypoints. Use these to map points for helm.</p>
-		<h3>Emergency Procedures</h3>
-		<ul>
-			<li>Assess the situation</li>
-			<li>Assign target priorities</li>
-			<li>Communicate clearly</li>
-		</ul>
-	</section>
+		<section id="comms" class="science">
+			<h2>Comms <img src="images/comms.png" class="role-icon" alt="Comms icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The comms officer is the role that communicates with other ships, whether they be allies or enemies. The comms officer should:</p>
+			<ol>
+				<li>Listen to the captain</li>
+				<li>Report <strong>important</strong> information back to the captain</li>
+				<li>Remember key information</li>
+				<li>Coordinate other ships</li>
+				<li>Communicate mission priorities</li>
+			</ol>
+			<p>The comms officer should <strong>not</strong>:</p>
+			<ol>
+				<li>Provoke hostiles without command permission</li>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The comms officer is part of the <strong>science</strong> subteam.</p>
+			<p>Science provides the ship’s understanding of the battlespace. It gathers, interprets, and distributes information, ensuring that decisions are made with awareness rather than assumption.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the comms officer sits on the left of the bridge, surrounded by the relay (left) and chief engineer (right) stations. The captain is behind them.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the comms officer sits on the back left of the bridge, next to the missile station (right). The captain is behind them.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Communication</li>
+				<li>Understanding importance</li>
+				<li>Remaining calm under pressure</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Captain! The enemy's saying "Hello there, we demand you hand over your ship to us or we will start firing at you"!"</p>
+			<p><strong>Right: </strong>"Captain! Enemy wants our ship. How should I respond?"</p>
+			<p><strong>Wrong: </strong>"Engineering, give me a minute to get a perfect hack."</p>
+			<p><strong>Right: </strong>"Engineering, is there enough coolant for me to hack?"</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Giving a full speech</li>
+				<li>Making decisions without enough information</li>
+				<li>Going against command's decisions</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Trust your captain</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the comms officer you have access to:</p>
+			<ul>
+				<li>Comms</li>
+				<li>Hacking</li>
+				<li>Probes</li>
+				<li>Waypoints</li>
+			</ul>
+			<h4>Comms</h4>
+				<h5>Voice Comms</h5>
+					<p>Voice comms connects you to your flight commander. This is done at the start of the mission and may happen throughout the mission too.</p>
+				<h5>Text Comms</h5>
+					<p>Text comms can connect you to any ship or station.</p>
+			<h4>Hacking</h4>
+				<p>You have access to hack other ships through a game of minesweeper. After a 100% hack, 75% of power supplied to a system is reduced.</p>
+			<h4>Probes</h4>
+				<p>You have access to 10 probes which have a 5 minute lifespan. Probes can be used to see more than just the ship. They can be linked to science to start scanning ships in an unknown area e.g. a nebula.</p>
+			<h4>Waypoints</h4>
+				<p>You have access to 8 colours of 10 numbered waypoints. Use these to map routes or points of interest for helm.</p>
+			<h3>Emergency Procedures</h3>
+			<ul>
+				<li>Assess the situation</li>
+				<li>Assign priorities</li>
+				<li>Coordinate stations</li>
+				<li>Communicate clearly</li>
+			</ul>
+		</section>
 
-	<section id="about" class="about">
-		<h2>About</h2>
-		<a href="#home" class="home-button">Home</a>
-		<p>This is a fan-made handbook for the roles at Bridge Command. Nothing should be taken as reality. If you don't want to play the way this handbook shows, then don't so long as it doesn't go against basic human respect. Things you may get kicked out for:</p>
-		<ul>
-			<li>Disrespecting someone</li>
-			<li>Homophobic, sexist or gender-discriminatory behaviours or comments</li>
-			<li>Swearing</li>
-			<li>Inappropriate body language</li>
-			<li>Intoxication by alcohol or the influence of prohibited substances, recreational or social drugs</li>
-			<li>Threatening people with intent</li>
-			<li>Belittling and demeaning language or behaviours</li>
-			<li>Racist or religious taunts or incitement</li>
-		</ul>
-		<p>Things you shouldn't do on-mission, regardless of role:
+		<section id="chiefengineer" class="engineering">
+			<h2>Chief Engineer <img src="images/chief-engineer.png" class="role-icon" alt="Chief Engineer icon"></h2>
+			<a href="#home" class="home-button">Home</a>
+			<h3>Main Role</h3>
+			<p>The chief engineer is the role with the highest say of engineering on the ship. The chief engineer should:</p>
+			<ol>
+				<li>Listen to the captain and crew</li>
+				<li>Delegate tasks to engineers</li>
+				<li>Warn stations of heat levels</li>
+			</ol>
+			<p>The chief engineer should <strong>not</strong>:</p>
+			<ol>
+				<li>Take over a station without permission</li>
+				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
+				<li>Dominate every conversation</li>
+			</ol>
+			<h3>Crew Subteam</h3>
+			<p>The chief engineer is part of the <strong>engineering</strong> subteam.</p>
+			<p>Engineering determines what the vessel can sustain: how much power is available, which systems can be pushed, where coolant is needed, and whether damaged systems can be restored before the next crisis arrives.</p>
+			<h3>Location</h3>
+			<h4>Havock</h4>
+			<p>On the Havock, the chief engineer sits at the front left of the bridge, next to the comms officer (right). The captain is behind them.</p>
+			<h4>Takanami</h4>
+			<p>On the Takanami, the chief engineer sits on the right of the bridge, surrounded by radar (left) and dock & drone (right). The captain is behind them.</p>
+			<h3>Skills Required</h3>
+			<ul>
+				<li>Leadership</li>
+				<li>Communication</li>
+				<li>Decision making</li>
+				<li>Remaining calm under pressure</li>
+			</ul>
+			<h3>Callouts</h3>
+			<p><strong>Wrong: </strong>"Take the top OCP and replace it."</p>
+			<p><strong>Right: </strong>"The OCP power is low, can you replace it?"</p>
+			<p><strong>Wrong: </strong>"STOP USING BEAMS!"</p>
+			<p><strong>Right: </strong>"Weapons, can we move to missiles?"</p>
+			<h3>Common Mistakes</h3>
+			<ul>
+				<li>Trying to control every station</li>
+				<li>Giving unclear orders</li>
+				<li>Forgetting to listen to specialists</li>
+				<li>Making decisions without enough information</li>
+			</ul>
+			<h3>Advanced Tips</h3>
+			<ul>
+				<li>Trust your officers</li>
+				<li>Keep communication concise</li>
+				<li>Think several steps ahead</li>
+				<li>Let specialists do their jobs</li>
+			</ul>
+			<h3>Station</h3>
+			<p>As the chief engineer, you have access to:</p>
+			<ul>
+				<li>Damage Control</li>
+				<li>Power Levels</li>
+			</ul>
+			<h4>Damage Control</h4>
+			<p>This is a map of the ship. SPANRs can be moved to different parts to fix them.</p>
+			<h4>Power Levels</h4>
+			<p>Power levels can be changed to allow stations to do more/less e.g. increase maneuvering to increase impulse speed. With more power, comes more coolant needed to stabilise it.</p>
+			<h3>Emergency Procedures</h3>
+			<ul>
+				<li>Assess the situation</li>
+				<li>Assign priorities</li>
+				<li>Coordinate stations</li>
+				<li>Communicate clearly</li>
+			</ul>
+		</section>
+
+		<section id="about" class="about">
+			<h2>About</h2>
+			<a href="#home" class="home-button">Home</a>
+			<p>This is a fan-made handbook for the roles at Bridge Command. Nothing should be taken as reality. If you don't want to play the way this handbook shows, then don't so long as it doesn't go against basic human respect. Things you may get kicked out for:</p>
+			<ul>
+				<li>Disrespecting someone</li>
+				<li>Homophobic, sexist or gender-discriminatory behaviours or comments</li>
+				<li>Swearing</li>
+				<li>Inappropriate body language</li>
+				<li>Intoxication by alcohol or the influence of prohibited substances, recreational or social drugs</li>
+				<li>Threatening people with intent</li>
+				<li>Belittling and demeaning language or behaviours</li>
+				<li>Racist or religious taunts or incitement</li>
+			</ul>
+			<p>Things you shouldn't do on-mission, regardless of role:</p>
 			<ul>
 				<li>Take over a station without permission</li>
 				<li>Ruin someone else's time - they paid the same money you did for the experience</li>
 				<li>Dominate every conversation</li>
 			</ul>
-		<p>This is not an exhaustive list but is part of basic human decency.</p>
-		<p>This information is correct as far as I know. If it isn't, contact "Cadet Jones" on the Bridge Command Discord.</p>
-	</section>
+			<p>This is not an exhaustive list but is part of basic human decency.</p>
+			<p>This information is correct as far as I know. If it isn't, contact "Cadet Jones" on the Bridge Command Discord.</p>
+		</section>
+	</main>
 
-	<footer>Bridge Command Role Handbook</footer>
-	<footer>© 2026 Ethan Jones, Bridge Command</footer>
-	<footer>Last updated: 19 July 2026</footer>
+	<footer>
+		<p>Bridge Command Role Handbook</p>
+		<p>© 2026 Ethan Jones, Bridge Command</p>
+		<p>Last updated: 19 July 2026</p>
+	</footer>
 </body>
 </html>
