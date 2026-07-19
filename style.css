@@ -134,6 +134,11 @@ img.role-icon {
 	padding: 10px;
 }
 
+.shuttle {
+	border-left: 10px solid var(--shuttle);
+	padding: 10px;
+}
+
 .about {
 	border-left: 10px solid var(--about);
 	padding: 10px;
