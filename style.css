@@ -85,7 +85,7 @@ nav {
 }
 
 nav.general {
-	grid-template-columns: repeat(3, auto);
+	grid-template-columns: repeat(4, auto);
 	justify-content: center;
 	gap: 20px;
 	padding: 20px;
